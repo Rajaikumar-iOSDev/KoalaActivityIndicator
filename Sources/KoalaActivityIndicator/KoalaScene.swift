@@ -24,13 +24,13 @@ class KoalaScene: SKScene {
     
     fileprivate func koalaAnimations() {
         
-        let koala = SKSpriteNode(imageNamed: "koala_walk1")
+        let koala = SKSpriteNode(texture: SKTexture(image:SPMImage(named: "koala_walk1")!))
         koala.position = CGPoint(x: 0, y: 70)
         addChild(koala)
         var explosionTextures:[SKTexture] = []
         
         for i in 1...4 {
-            explosionTextures.append(SKTexture(imageNamed: "koala_walk\(i)"))
+            explosionTextures.append(SKTexture(image:SPMImage(named: "koala_walk\(i)")!))
         }
         let explosionAnimation = SKAction.animate(with: explosionTextures,
                                                   timePerFrame: 0.1)
@@ -50,5 +50,9 @@ class KoalaScene: SKScene {
         
     }
     
+}
+
+public func SPMImage(named name: String) -> UIImage? {
+  UIImage(named: name, in: Bundle.module, compatibleWith: nil)
 }
 
