@@ -9,16 +9,15 @@ import Foundation
 import UIKit
 import SpriteKit
 public class KoalaLoaderView:SKView{
-    var koalaScene: SKScene?
     
-public    func addKoalaAnimation()
+    public func addKoalaAnimation()
     {
-            koalaScene = KoalaScene(size: CGSize(width: self.bounds.width, height: self.bounds.height))
-            self.ignoresSiblingOrder = true
-            koalaScene?.scaleMode = .aspectFill
-            koalaScene?.backgroundColor = .clear
-            self.presentScene(koalaScene)
-            self.backgroundColor  = .clear
+        let koalaScene = KoalaScene(size: CGSize(width: self.bounds.width, height: self.bounds.height))
+        self.ignoresSiblingOrder = true
+        koalaScene.scaleMode = .aspectFill
+        koalaScene.backgroundColor = .clear
+        self.presentScene(koalaScene)
+        self.backgroundColor  = .clear
     }
-
+    
 }
