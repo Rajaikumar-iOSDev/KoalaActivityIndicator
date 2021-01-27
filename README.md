@@ -11,7 +11,7 @@ If you have any issues or if you need any feature, create an issue and let me kn
 
 ### Tech stack
 
-Xcode, UIKit, SpriteKit.
+Xcode, UIKit & SpriteKit.
 
 ### Sample Gif
 
