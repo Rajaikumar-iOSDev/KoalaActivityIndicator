@@ -15,6 +15,10 @@ Xcode > File > Swift Packages > Add Package Dependency > Select your project > e
 
 Xcode, UIKit & SpriteKit.
 
+### Example Project
+
+https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicatorExample
+
 ### Sample Gif
 
 
