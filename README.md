@@ -3,6 +3,10 @@
 KoalaActivityIndicator is created for people who loves koala🐨💙 and wants to add a non boring version of activity indicator.
 If you have any issues or if you need any feature, create an issue and let me know.
 
+## Sample
+
+![1](https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicatorExample/blob/main/Koala%20Activity%20Indicator.gif)
+
 ## Installation guide
 
 ### Swift Package Manager
@@ -38,6 +42,5 @@ Xcode, UIKit & SpriteKit.
 https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicatorExample
 
 ## Sample
-
 
 ![1](https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicatorExample/blob/main/Koala%20Activity%20Indicator.gif)
