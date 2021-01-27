@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "KoalaActivityIndicator",
             dependencies: []),
-        .testTarget(
-            name: "KoalaActivityIndicatorTests",
-            dependencies: ["KoalaActivityIndicator"]),
     ]
 )
