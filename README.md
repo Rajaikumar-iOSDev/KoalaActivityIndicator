@@ -15,7 +15,7 @@ Xcode > File > Swift Packages > Add Package Dependency > Select your project > e
 
 ##### URL - https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicator.git
 
-## Usage Guide
+## Usage guide
 
 Step 1: Go to the storyboard and add a SKView object from the object Library.
 
