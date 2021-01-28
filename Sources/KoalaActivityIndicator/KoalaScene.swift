@@ -27,15 +27,15 @@ class KoalaScene: SKScene {
         let koala = SKSpriteNode(texture: SKTexture(image:SPMImage(named: "koala_walk1")!))
         koala.position = CGPoint(x: 0, y: 70)
         addChild(koala)
-        var explosionTextures:[SKTexture] = []
+        var koalaTextures:[SKTexture] = []
         
         for i in 1...4 {
-            explosionTextures.append(SKTexture(image:SPMImage(named: "koala_walk\(i)")!))
+            koalaTextures.append(SKTexture(image:SPMImage(named: "koala_walk\(i)")!))
         }
-        let explosionAnimation = SKAction.animate(with: explosionTextures,
+        let koalaWalkAnimation = SKAction.animate(with: koalaTextures,
                                                   timePerFrame: 0.1)
         koala.removeAction(forKey: "animation")
-        koala.run(SKAction.repeatForever(explosionAnimation), withKey: "animation")
+        koala.run(SKAction.repeatForever(koalaWalkAnimation), withKey: "animation")
         let movePlayerAction = SKAction.moveTo(x: size.width, duration: 5.0)
         let actionRemove = SKAction.removeFromParent()
         let sequenceAction = SKAction.sequence([movePlayerAction,actionRemove])
