@@ -41,6 +41,5 @@ Xcode, UIKit & SpriteKit.
 
 https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicatorExample
 
-## Sample
-
-![1](https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicatorExample/blob/main/Koala%20Activity%20Indicator.gif)
+## Special thanks for the assets
+https://www.gameartguppy.com & Vicki Wenderlich
