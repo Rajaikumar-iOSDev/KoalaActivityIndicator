@@ -3,19 +3,19 @@
 KoalaActivityIndicator is created for people who loves koala🐨💙 and wants to add a non boring version of activity indicator.
 If you have any issues or if you need any feature, create an issue and let me know.
 
-## Sample
+## 🎥Sample
 
 ![1](https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicatorExample/blob/main/Koala%20Activity%20Indicator.gif)
 
-## Installation guide
+## 📜Installation guide
 
-### Swift Package Manager
+### 📦Swift Package Manager
 
 Xcode > File > Swift Packages > Add Package Dependency > Select your project > enter package dependency URL
 
 ##### URL - https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicator.git
 
-## Usage guide
+## 📄Usage guide
 
 Step 1: Go to the storyboard and add a SKView object from the object Library.
 
@@ -33,13 +33,19 @@ Step 4: Call addKoalaAnimation() using the outlet.
 
 ![Screenshot 2021-01-28 at 2 07 00 AM](https://user-images.githubusercontent.com/22410262/106051144-1124e880-610e-11eb-80f3-3b4d16403ef6.png)
 
-## Tech stack
+## 🥞Tech stack
 
 Xcode, UIKit & SpriteKit.
 
-## Example project
+## 💾Example project
 
 https://github.com/Rajaikumar-iOSDev/KoalaActivityIndicatorExample
 
-## Special thanks for the assets
+## 🙏🏽Special thanks for the assets
 https://www.gameartguppy.com & Vicki Wenderlich
+
+# 👨‍💻 Author 
+[Rajai kumar](https://github.com/Rajaikumar-iOSDev)
+
+# 🔖 Licence 
+The project is availabe under [MIT licence](https://github.com/jVirus/spritekit-water-node-ios-app/blob/master/LICENSE).
